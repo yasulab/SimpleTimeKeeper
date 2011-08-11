@@ -17,14 +17,14 @@
 	color: #7cfc00;
 }
 .dash .digit {
-	font: bold 230pt Tahoma;
+	font: bold 2000% Tahoma;
 	float: left;
 	width: 45%;
 	text-align: center;
 }
 
 .dash_title {
-	font-size: 30pt;
+	font-size: 500%;
 	display: block;
 	text-align: center;
 	padding-right: 0px;
