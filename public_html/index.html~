@@ -56,9 +56,9 @@
 	<br/>
 	
 	<div align="center">
-	  <input type="text" name="hours" id="hours" size="1" maxlength=2/>
-	  <input type="text" name="minutes" id="minutes" size="1" maxlength=2/>
-	  <input type="text" name="seconds" id="seconds" size="1" maxlength=2/>
+	  <input type="text" name="hours" id="hours" size="1" maxlength=2 />
+	  <input type="text" name="minutes" id="minutes" size="1" maxlength=2 />
+	  <input type="text" name="seconds" id="seconds" size="1" maxlength=2 />
 	</div>
 	
 	<script language="javascript" type="text/javascript">
