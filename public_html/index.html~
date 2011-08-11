@@ -4,6 +4,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    
     <script type="text/javascript" src="js/jquery-1.4.1.js"></script>
     <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
     <script type="text/javascript" src="js/jquery.alphanumeric.js"></script>
@@ -11,7 +13,7 @@
 
     <link rel="stylesheet" type="text/css" href="./css/popup.css"></link>
     <link rel="stylesheet" type="text/css" href="./css/time.css"></link>	
-    <title>TimeKeeper</title>
+    <title>Simple Time Keeper</title>
   </head>
 
   <body bgcolor="black">
@@ -59,7 +61,30 @@
 	  <input type="text" name="hours" id="hours" size="1" maxlength=2 />
 	  <input type="text" name="minutes" id="minutes" size="1" maxlength=2 />
 	  <input type="text" name="seconds" id="seconds" size="1" maxlength=2 />
+
+	  <br/>
+	  <br/>
+
+	  
 	</div>
+
+	
+	  <table align="center">
+	    <tr>
+	      <td>
+		<a href="http://twitter.com/share" target="_blank" class="twitter-share-button"
+		 data-text="Check out this. timekeeper.fluxflex.com #SimpleTimeKeeper"
+		 data-count="vertical" data-lang="en"></a>
+	      <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	      <a id="fb-root"></a>
+	      <script src="http://connect.facebook.net/en_US/all.js#appId=108818705886917&amp;xfbml=1"></script>
+	      <fb:like href="timekeeper.fluxflex.com" send="true" layout="box_count"
+		       width="450" show_faces="false" action="like" font="tahoma"></fb:like>
+	      </td>
+	    </tr>
+	  </table>
+
+
 	
 	<script language="javascript" type="text/javascript">
 	  // Form Validation
