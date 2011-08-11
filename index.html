@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <script type="text/javascript" src="js/jquery-1.4.1.js"></script>
+    <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+    <script type="text/javascript" src="js/jquery.alphanumeric.js"></script>
+    <script type="text/javascript" src="js/jquery.popup.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/popup.css"></link>
+    <link rel="stylesheet" type="text/css" href="./css/time.css"></link>	
+    <title>TimeKeeper</title>
+  </head>
+
+  <body bgcolor="black">
+    <div id="container">    
+
+      <div class="pane">
+	<div id="countdown_dashboard">
+	  <div class="dash hours_dash">
+	    <span class="dash_title">hours</span>
+	    <div class="digit">0</div>
+	    <div class="digit">0</div>
+	  </div>
+	  
+	  <div class="dash minutes_dash">
+	    <span class="dash_title">minutes</span>
+	    <div class="digit">0</div>
+	    <div class="digit">0</div>
+	  </div>
+	  
+	  <div class="dash seconds_dash">
+	    <span class="dash_title">seconds</span>
+	    <div class="digit">0</div>
+	    <div class="digit">0</div>
+	  </div>
+	</div>
+
+	<div id="dialog-overlay"></div>
+	<div id="dialog-box">
+	  <div class="dialog-content">
+	    <div id="dialog-message"></div>
+	    <a href="#" class="button">Close</a>
+	  </div>
+	</div>
+	
+	<div class="countdown_controls" align="center">
+	  <button onclick="stop()">stop</button>
+	  <button onclick="start()">start</button>
+	  <button onclick="reset()">set</button>
+	</div>
+
+	<br/>
+	<br/>
+	
+	<div align="center">
+	  <input type="text" name="hours" id="hours" size="1" maxlength=2/>
+	  <input type="text" name="minutes" id="minutes" size="1" maxlength=2/>
+	  <input type="text" name="seconds" id="seconds" size="1" maxlength=2/>
+	</div>
+	
+	<script language="javascript" type="text/javascript">
+	  // Form Validation
+	  $('#hours').numeric();
+	  $('#minutes').numeric();
+	  $('#seconds').numeric();
+	  
+	  // Set Timer
+	  $('#hours').val(0);
+	  $('#minutes').val(0);
+	  $('#seconds').val(3);
+
+	  //alert($('#seconds').val());
+	  //alert(h+m+s);
+	  
+	  // Set the Countdown
+	  jQuery(document).ready(function() {
+	  
+	    $('#countdown_dashboard').countDown({
+	      targetOffset: {
+	        'day': 	0,
+	        'month': 	0,
+	        'year': 	0,
+	        'hour': 	eval($('#hours').val()),
+	        'min': 	eval($('#minutes').val()),
+	        'sec': 	eval($('#seconds').val())
+	      },
+	      // onComplete Function
+	      onComplete: function() { popup('Finished!') }
+	      //onComplete: function() { $('#complete_info_message').slideDown() }
+	    });
+	  });
+	  
+	  // Stop countdown
+	  function stop() {
+	  $('#countdown_dashboard').stopCountDown();
+	  }
+
+	  // Start countdown
+	  function start() {
+	  $('#countdown_dashboard').startCountDown();
+	  }
+
+	  // reset and start
+	  function reset() {
+	  $('#countdown_dashboard').stopCountDown();
+	  $('#countdown_dashboard').setCountDown({
+	  targetOffset: {
+	  'day': 	0,
+	  'month': 	0,
+	  'year': 	0,
+	  'hour': 	eval($('#hours').val()),
+	  'min': 	eval($('#minutes').val()),
+	  'sec': 	eval($('#seconds').val())
+	  }
+	  });				
+	  $('#countdown_dashboard').startCountDown();
+	  $('#countdown_dashboard').stopCountDown();
+	  }
+
+	  // onComplete
+	  
+	  
+	</script>
+      </div>
+      
+    </div>
+  </body>
+</html>
