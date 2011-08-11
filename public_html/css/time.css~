@@ -17,7 +17,7 @@
 	color: #7cfc00;
 }
 .dash .digit {
-	font: bold 220pt Tahoma;
+	font: bold 250pt Tahoma;
 	float: left;
 	width: 45%;
 	text-align: center;
