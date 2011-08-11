@@ -48,13 +48,12 @@
 	  </div>
 	</div>
 	
-	<div class="countdown_controls" align="center">
+	<div id="countdown_controls">
 	  <button onclick="stop()">stop</button>
 	  <button onclick="start()">start</button>
 	  <button onclick="reset()">set</button>
 	</div>
 
-	<br/>
 	<br/>
 	
 	<div class="setter" align="center">
@@ -74,6 +73,11 @@
 		 data-count="vertical" data-lang="en"></a>
 	      <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 	      <a id="fb-root"></a>
+
+	      &nbsp;&nbsp;
+
+	      <!-- Place this tag where you want the +1 button to render -->
+	      <g:plusone size="tall"></g:plusone>
 
 	      &nbsp;&nbsp;
 	      
