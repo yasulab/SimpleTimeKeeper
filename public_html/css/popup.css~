@@ -13,7 +13,7 @@
 	                   top:0;left:0;
 	                   z-index:3000;
 	                   /* hide it by default */
-	                   display: none;
+	                   display:none;
 	                }
 	                #dialog-box {
 	                   /* css3 drop shadow */

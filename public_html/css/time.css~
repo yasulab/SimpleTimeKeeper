@@ -9,25 +9,25 @@
 	width: 33%;
 	height: 0%;
 	float: left;
-	margin-top: 5%;
+	margin-top: 3%;
 	margin-left:auto;
 	margin-right:auto;
-	padding-left: 5px;
+	//padding-left: 0%;
 	position: relative;
 	color: #7cfc00;
 }
 .dash .digit {
-	font: bold 230pt Tahoma;
+	font: bold 2000% Tahoma;
 	float: left;
 	width: 45%;
 	text-align: center;
 }
 
 .dash_title {
-	font-size: 30pt;
+	font-size: 500%;
 	display: block;
 	text-align: center;
-	padding-right: 0px;
+	// padding-right: 0%;
 	color: #7cfc00;
 }
 
