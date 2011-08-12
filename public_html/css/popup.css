@@ -53,14 +53,15 @@
 	       */
 	                }
 	                a.button {
+			   font-size: 40px;
 	                   /* styles for button */
 	                   margin:10px auto 0 auto; padding: 5px 10px 6px;
-	                   text-align:center;
+	                   text-align: center;
 	                   display: block;
-	                   width: 30%;
+	                   width: 20%;
 	                   color: #fff;
 	                   text-decoration: none;
-	                   font-weight: bold;
+	                   //font-weight: bold;
 	                   line-height: 1;
 	                   /* button color */
 	                   background-color: #e33100;
