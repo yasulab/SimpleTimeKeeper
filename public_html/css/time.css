@@ -41,7 +41,8 @@
 }
 
 #share li{
-  padding: 5px;
+  padding-right: 10px;
+  
   list-style: none;
   float: left;
 }
