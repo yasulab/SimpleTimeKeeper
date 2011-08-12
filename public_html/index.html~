@@ -52,16 +52,14 @@
 	  <button onclick="stop()">stop</button>
 	  <button onclick="start()">start</button>
 	  <button onclick="reset()">set</button>
-	</div>
 
-	<br/>
-	
-	<div class="setter" align="center">
+	  <br/>
+	  <br/>
+
 	  <input type="text" name="hours" id="hours" size="1" maxlength=2 />
 	  <input type="text" name="minutes" id="minutes" size="1" maxlength=2 />
 	  <input type="text" name="seconds" id="seconds" size="1" maxlength=2 />
-	</div>
-
+	  
 	<br/>
 	<br/>
 
@@ -87,6 +85,8 @@
 	    </td>
 	  </tr>
 	</table>
+
+	</div>
 
 
 	
