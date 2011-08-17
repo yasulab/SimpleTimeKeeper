@@ -10,6 +10,7 @@
     <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
     <script type="text/javascript" src="js/jquery.alphanumeric.js"></script>
     <script type="text/javascript" src="js/jquery.popup.js"></script>
+    <script type="text/javascript" src="js/jquery.sound.js"></script>
 
     <link rel="stylesheet" type="text/css" href="./css/popup.css"></link>
     <link rel="stylesheet" type="text/css" href="./css/time.css"></link>	
@@ -113,9 +114,15 @@
 	        'sec': 	eval($('#seconds').val())
 	      },
 	      // onComplete Function
-	      onComplete: function() { popup('Finished!') }
-	      //onComplete: function() { $('#complete_info_message').slideDown() }
+	      onComplete: function() {
+	        popup('Finished!');
+	        $.sound.play("./sound/gong3.wav");
+	      }
+	      //onComplete: function() {
+	      //$('#complete_info_message').slideDown();
+	      //}
 	    });
+	    $('#countdown_dashboard').stopCountDown();
 	  });
 	  
 	  // Stop countdown
@@ -125,7 +132,9 @@
 
 	  // Start countdown
 	  function start() {
-	  $('#countdown_dashboard').startCountDown();
+	    $('#countdown_dashboard').stopCountDown();
+	    $('#countdown_dashboard').startCountDown();
+	    $.sound.play("./sound/gong.wav");
 	  }
 
 	  // reset and start
