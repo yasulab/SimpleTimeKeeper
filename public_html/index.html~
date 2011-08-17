@@ -5,10 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta property="og:site_name" content="SimpleTimeKeeper" />
     <meta property="og:title" content="SimpleTimeKeeper" />
-    <meta property="og:description" content="SimpleTimeKeeper helps you timekeeping. It can be used for presentations and lightning talks. You don't have to install any software for timekeeping; just visit this website." />
+    <meta property="og:description" content="SimpleTimeKeeper helps you timekeeping. It can be used for presentations and lightning talks. You don't have to install any software for timekeeping now; instead, just visit this website when needed." />
     <meta property="og:url" content="http://timekeeper.fluxflex.com/" />
-    <meta property="og:image" content="http://2.bp.blogspot.com/-m-Hc-PpvzLs/TkQBEq5mRLI/AAAAAAAABUo/o715DZ64hcs/s400/Screen+shot+2011-08-12+at+1.15.04.png" />
+    <meta property="og:image" content="http://timekeeper.fluxflex.com/sample.png" />
     <meta property="og:type" content="website" />
+    <meta property="fb:admins" content="yasulab" />
     
 
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
