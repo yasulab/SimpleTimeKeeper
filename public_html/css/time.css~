@@ -33,7 +33,7 @@
 
 #countdown_controls{
   padding-top: 40%;
-  padding-left: 43%;  
+  padding-left: 40%;  
   align: center;
   position: absolute;
   text-align: center;

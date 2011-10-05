@@ -50,3 +50,15 @@
   list-style: none;
   float: left;
 }
+
+#hours {
+  width: 30px;
+}
+
+#minutes {
+  width: 30px;
+}
+
+#seconds {
+  width: 30px;
+}
