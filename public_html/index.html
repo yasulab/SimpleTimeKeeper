@@ -103,9 +103,9 @@
 	  
     time = (location.search || location.hash).split(/[^0-9]/).filter(function (x) { return x !== ""; }).slice(0, 3).map(function (x) { return parseInt(x, 10); }).reverse();
 	  // Set Timer
-	  $('#hours').val(time[2] || 0);
-	  $('#minutes').val(time[1] || 0);
-	  $('#seconds').val(time[0] || 10);
+	  $('#hours').val(time[2] !== undefined ? time[2] : 0);
+	  $('#minutes').val(time[1] !== undefined ? time[1] : 0);
+	  $('#seconds').val(time[0] !== undefined ? time[0] : 10);
 
 	  //alert($('#seconds').val());
 	  //alert(h+m+s);
