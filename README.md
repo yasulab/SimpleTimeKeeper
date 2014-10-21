@@ -1,21 +1,29 @@
-Website for YassLab
-=====================
+Simple Timekeeper
+=================
 
-This repository includes source code to build a website of [YassLab](http://yasslab.jp).
+_** SimpleTimekeeper helps your timekeeping. **_
 
-YassLab   
-Distributed Company that Works Remotely, focusing on   
-Ruby/Rails Web Development, Education, and OpenSource.   
-http://yasslab.jp/
+![Screenshot](http://dl.dropbox.com/u/2819285/simpletimekeeper-ss.jpg)
 
-## License
+It can be used for presentations and lightning talks.
+You don't have to install any software for timekeeping now;
+instead, just visit this website when needed.
 
-The MIT License (MIT)
+<<<<<<< HEAD
+[Simple TimeKeeper](http://timekeeper.fluxflex.com/)
 
-Copyright (c) 2014 YasuLab & Co.
+Author
+------
+[@yasulab](http://twitter.com/)
+=======
+[Simple TimeKeeper](http://simpletimekeeper.com/)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Author
+------
+[@yasulab](http://twitter.com/yasulab)
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+License
+-------
+SimpleTimeKeeper is distributed under MIT License. See `LICENSE` for details.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+>>>>>>> 1883bef789b8495acf40c256292a97308d2a0f56

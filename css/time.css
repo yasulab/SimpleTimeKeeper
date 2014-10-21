@@ -1,0 +1,85 @@
+#countdown_dashboard{
+    width:  100%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dash {
+    width: 33%;
+    height: 0%;
+    float: left;	
+    margin-top: 3%;
+    margin-left:auto;
+    margin-right:auto;
+    //padding-left: 0%;
+    position: relative;
+    color: #7cfc00;
+}
+.dash .digit {
+    font: bold 2000% Tahoma;
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+
+.dash_title {
+    font-size: 500%;
+    display: block;
+    text-align: center;
+    padding-right: 10%;
+    color: #7cfc00;
+}
+
+#countdown_controls{
+    padding-top: 40%;
+    padding-left: 40%;  
+    align: center;
+    position: absolute;
+    text-align: center;
+    display: block;
+}
+
+#countdown_controls button{
+    border:outset 2px;
+    padding:0;
+    margin:0;
+    background:black;
+    border:0;
+    font-size:0;
+    line-height:0;
+    overflow:visible;
+    cursor:pointer;
+}
+
+#countdown_controls button:active{
+    opacity: 0.50;
+}
+#test:hover {
+    filter: alpha( opacity=25 );  // IE
+    opacity:0.25;         // Firefox,Opera,Safari
+    -moz-opacity:0.25;    // before Firefox 0.9
+}
+    
+#share ul{
+    padding-right: 200px;
+}
+
+#share li{
+    //  margin-right: 100px;
+    padding-right: 20px;
+    list-style: none;
+    float: left;
+}
+
+#hours {
+    width: 35px;
+}
+
+#minutes {
+    width: 35px;
+}
+
+#seconds {
+    width: 35px;
+}

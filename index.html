@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta property="og:site_name" content="SimpleTimeKeeper" />
+    <meta property="og:title" content="SimpleTimeKeeper" />
+    <meta property="og:description" content="SimpleTimeKeeper helps you timekeeping. It can be used for presentations and lightning talks. You don't have to install any software for timekeeping now; instead, just visit this website when needed." />
+    <meta property="og:url" content="http://timekeeper.fluxflex.com/" />
+    <meta property="og:image" content="http://timekeeper.fluxflex.com/sample.png" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:admins" content="yasulab" />
+
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    
+    <script type="text/javascript" src="js/jquery-1.4.1.js"></script>
+    <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+    <script type="text/javascript" src="js/jquery.alphanumeric.js"></script>
+    <script type="text/javascript" src="js/jquery.popup.js"></script>
+    <script type="text/javascript" src="js/jquery.sound.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.toast.js"></script>-->
+    <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./css/popup.css"></link>
+    <link rel="stylesheet" type="text/css" href="./css/time.css"></link>
+    <!--<link rel="stylesheet" type="text/css" href="./css/toast.css"></link>-->
+    <link rel="stylesheet" type="text/css" href="./css/tipsy.css"></link>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31688028-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    
+    <title>SimpleTimeKeeper</title>
+  </head>
+
+  <body bgcolor="black" style="overflow: hidden;">
+    <div id="container">    
+
+      <div class="pane">
+	<div id="countdown_dashboard">
+	  <div class="dash hours_dash">
+	    <span class="dash_title">hour</span>
+	    <div class="digit">0</div>
+	    <div class="digit">0</div>
+	  </div>
+	  
+	  <div class="dash minutes_dash">
+	    <span class="dash_title">min</span>
+	    <div class="digit">0</div>
+	    <div class="digit">0</div>
+	  </div>
+	  
+	  <div class="dash seconds_dash">
+	    <span class="dash_title">sec</span>
+	    <div class="digit">0</div>
+	    <div class="digit">0</div>
+	  </div>
+	</div>
+
+	<div id="dialog-overlay"></div>
+	<div id="dialog-box">
+	  <div class="dialog-content">
+	    <div id="dialog-message"></div>
+	    <a href="#" class="button">OK</a>
+	  </div>
+	</div>
+	
+	<div id="countdown_controls">
+	  <button id="stopBtn" onclick="stop()">
+	    <img src="img/stop_btn.jpg" alt="stop"
+		 width="50" height="30" />
+	  </button>
+	  <button id="startBtn" onclick="start()">
+	    <img src="img/start_btn.jpg" alt="start"
+		 width="50" height="30" />
+	  </button>
+	  <button id="setBtn" onclick="reset()">
+	    <img src="img/set_btn.jpg" alt="set"
+		 width="50" height="30" />
+	  </button>
+
+	  <br/>
+	  <br/>
+
+	  <input type="number" name="hours"
+		 id="hours" size="3" maxlength="2"
+		 onKeyPress="return keySetTime(event);"/>
+	  <input type="number" name="minutes"
+		 id="minutes" size="3" maxlength="2"
+		 onKeyPress="return keySetTime(event);"/>
+	  <input type="number" name="seconds"
+		 id="seconds" size="3" maxlength="2"
+		 onKeyPress="return keySetTime(event);"/>
+	  
+	  <br/>
+	  <br/>
+	
+
+	<ul id="share" align="center">
+	    <li>
+	      <a href="http://twitter.com/share" target="_blank" class="twitter-share-button"
+		 data-text="#SimpleTimeKeeper"
+		 data-count="vertical" data-lang="en"></a>
+	      <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	      <a id="fb-root"></a>
+	    </li>
+	    <li>
+	      <!-- Place this tag where you want the +1 button to render -->
+	      <g:plusone size="tall"></g:plusone>
+	    </li>
+	    <li>
+	      <script src="http://connect.facebook.net/en_US/all.js#appId=108818705886917&amp;xfbml=1"></script>
+	      <fb:like href="timekeeper.fluxflex.com" send="false" layout="box_count"
+		       width="45" show_faces="false" action="like" font="tahoma"></fb:like>
+	    </li>
+	</ul>
+	</div>
+
+	
+	<script type="text/javascript" src="js/main.js"></script>
+      </div>
+      
+    </div>
+  </body>
+</html>
