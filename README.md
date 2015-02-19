@@ -1,7 +1,7 @@
 Simple Timekeeper
 =================
 
-_** SimpleTimekeeper helps your timekeeping. **_
+_**SimpleTimekeeper helps your timekeeping.**_
 
 ![Screenshot](http://dl.dropbox.com/u/2819285/simpletimekeeper-ss.jpg)
 
