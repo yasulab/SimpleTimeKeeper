@@ -9,7 +9,7 @@ It can be used for presentations and lightning talks.
 You don't have to install any software for timekeeping now;
 instead, just visit this website when needed.
 
-[Simple TimeKeeper](http://simpletimekeeper.com/)
+[Simple TimeKeeper](http://www.simpletimekeeper.com/)
 
 Author
 ------
