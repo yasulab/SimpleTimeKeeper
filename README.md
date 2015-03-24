@@ -3,7 +3,7 @@ Simple Timekeeper
 
 _**SimpleTimekeeper helps your timekeeping.**_
 
-[![Screenshot](http://dl.dropbox.com/u/2819285/simpletimekeeper-ss.jpg)](http://simpletimekeeper.com/)
+[![Screenshot](http://dl.dropbox.com/u/2819285/simpletimekeeper-ss.jpg)](http://www.simpletimekeeper.com/)
 
 It can be used for presentations and lightning talks.
 You don't have to install any software for timekeeping now;
