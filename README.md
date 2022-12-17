@@ -1,4 +1,4 @@
-SimpleTimeKeeper
+⏳ SimpleTimeKeeper
 =================
 
 _**SimpleTimeKeeper helps your timekeeping.**_
@@ -13,7 +13,7 @@ instead, just visit this website when needed.
 
 License
 -------
-SimpleTimeKeeper is distributed under MIT License.
+⏳ [SimpleTimeKeeper](https://yasulab.github.io/SimpleTimeKeeper/) is distributed under MIT License.
 
 Copyright (c) 2014 [Yohei YASUKAWA](https://twitter.com/yasulab) ([@yasulab](https://github.com/yasulab))
 
