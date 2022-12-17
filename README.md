@@ -3,7 +3,7 @@ SimpleTimeKeeper
 
 _**SimpleTimeKeeper helps your timekeeping.**_
 
-[![Cover](https://github.com/yasulab/SimpleTimeKeeper/blob/master/img/cover.jpg?raw=true)](https://yasulab.github.io/SimpleTimeKeeper/)
+[![Cover](https://github.com/yasulab/SimpleTimeKeeper/blob/main/img/cover.jpg?raw=true)](https://yasulab.github.io/SimpleTimeKeeper/)
 
 It can be used for presentations and lightning talks.
 You don't have to install any software for timekeeping now;
