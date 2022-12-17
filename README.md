@@ -1,15 +1,15 @@
-Simple Timekeeper
+SimpleTimeKeeper
 =================
 
-_**SimpleTimekeeper helps your timekeeping.**_
+_**SimpleTimeKeeper helps your timekeeping.**_
 
-[![Screenshot](https://github.com/yasulab/SimpleTimeKeeper/blob/master/img/cover.jpg?raw=true)](http://www.simpletimekeeper.com/)
+[![Cover](https://github.com/yasulab/SimpleTimeKeeper/blob/master/img/cover.jpg?raw=true)](https://yasulab.github.io/SimpleTimeKeeper/)
 
 It can be used for presentations and lightning talks.
 You don't have to install any software for timekeeping now;
 instead, just visit this website when needed.
 
-[Simple TimeKeeper](http://www.simpletimekeeper.com/)
+[[Visit SimpleTimeKeeper website](https://yasulab.github.io/SimpleTimeKeeper/)]
 
 License
 -------
