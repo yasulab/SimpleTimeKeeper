@@ -11,10 +11,6 @@ instead, just visit this website when needed.
 
 [Simple TimeKeeper](http://www.simpletimekeeper.com/)
 
-Author
-------
-[@yasulab](https://twitter.com/yasulab)
-
 License
 -------
 SimpleTimeKeeper is distributed under MIT License.
